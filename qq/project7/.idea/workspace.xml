@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="79083ee1-11e6-4891-a45c-c4334740b387" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1waZtQjhZZ5AlFxWgtB7hqQAVYq" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../project8" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\user\Desktop\      \qq\project7\js" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="79083ee1-11e6-4891-a45c-c4334740b387" name="Default Changelist" comment="" />
+      <created>1628698873714</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1628698873714</updated>
+      <workItem from="1628698874860" duration="7303000" />
+      <workItem from="1628768047905" duration="5644000" />
+      <workItem from="1628839795830" duration="52000" />
+      <workItem from="1629202724337" duration="7834000" />
+      <workItem from="1629366565425" duration="250000" />
+      <workItem from="1629366833912" duration="2614000" />
+      <workItem from="1629375188346" duration="5888000" />
+      <workItem from="1629496315977" duration="1791000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2334" y="195" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1629378998021">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2334" y="195" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.864/1920.0.1920.1080@1920.0.1920.1080" timestamp="1629378998021" />
+    <state x="2012" y="92" width="1736" height="896" key="DiffContextDialog" timestamp="1629366769899">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2012" y="92" width="1736" height="896" key="DiffContextDialog/0.0.1536.864/1920.0.1920.1080@1920.0.1920.1080" timestamp="1629366769899" />
+    <state x="549" y="187" key="FileChooserDialogImpl" timestamp="1629800770040">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="549" y="187" key="FileChooserDialogImpl/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1629800770040" />
+    <state x="2606" y="234" key="FileChooserDialogImpl/0.0.1536.864/1920.0.1920.1080@1920.0.1920.1080" timestamp="1629379485990" />
+    <state x="549" y="187" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1628771522664" />
+    <state x="2159" y="93" key="SettingsEditor" timestamp="1629379520359">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2159" y="93" key="SettingsEditor/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1628699277188" />
+    <state x="2159" y="93" key="SettingsEditor/0.0.1536.864/1920.0.1920.1080@1920.0.1920.1080" timestamp="1629379520359" />
+    <state x="245" y="0" width="1305" height="849" key="dock-window-1" timestamp="1628698901492">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="245" y="0" width="1305" height="849" key="dock-window-1/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1628698901492" />
+    <state x="2324" y="297" width="723" height="307" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1629379087019">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2324" y="297" width="723" height="307" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1536.864/1920.0.1920.1080@1920.0.1920.1080" timestamp="1629379087019" />
+  </component>
+</project>

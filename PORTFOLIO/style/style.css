@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+    background-color:#04111c;
+}
+.logo{
+    background-size: cover;
+    width: 25%;
+    margin: 0 40px;
+}
+main{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    background-color:#04111c;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items:center ;
+}
+@font-face{
+    font-family: ARCADECLASSIC;
+    src: url(../font/ARCADECLASSIC.TTF);
+}
+@font-face{
+    font-family: ka1;
+    src: url(../font/ka1.ttf);
+}
+.nav-menu{
+    width: 80%;
+    height: 80%;
+    margin: auto;
+    font-family:ARCADECLASSIC;
+    font-size: 38px;
+    background-color: #1c282e;
+    border-radius:15px;
+    background-image: url(../img/clouds.png);
+    background-repeat:no-repeat;
+    background-position-x: 38%;
+    background-position-y: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 0;
+}
+
+.logo2{
+    font-size: 48px;
+    font-family: ka1;
+    font-weight: 100;
+    background: rgb(96,226,227);
+    background: linear-gradient(90deg, rgba(96,226,227,1) 0%, rgba(217,65,114,1) 50%, rgba(176,72,245,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-color: black;
+    margin-left: 20px;
+    margin-right: 20pc;
+}
+.info{
+    width: 50%;
+    margin-top: 35px ;
+}
+.info p{
+    font-size: 18px;
+    display: flex;
+    flex-wrap: nowrap;
+    color:rgb(205, 162, 228);
+    font-family: ka1;
+    margin: 20px 30px 40px;
+}
+h1{
+    font-size: 58px;
+    background: rgb(96,226,227);
+    background: linear-gradient(45deg, #F17C58, #E94584, #24AADB, #27DBB1, #FFDC18, #FF3706);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 20px 30px 40px;
+}
+.gallery{
+    width: 50%;
+    background-image: url(../img/tree.png);
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position-x: 78%;
+    background-position-y: 5%;
+}
+.reg-form{
+    width: 30%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin-top: 50px;
+}
+.form-group{
+    color: #00bff0;
+    text-align: center;
+}
+#exampleFormControlInput1{
+    background-color: #f2f2f2;
+}
+#exampleFormControlTextarea1{
+    background-color: #f2f2f2;
+}
+#exampleFormControlInput2{
+    background-color: #f2f2f2;
+}
+.btn{
+    background-color: grey;
+}
+.progress{
+    width: 80%;
+    margin: auto;
+    margin-top: 55px;
+}
+h3{
+    font-family: ARCADECLASSIC ;
+    font-size:20px;
+    margin-top: 10px;
+}
+.projects{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color:#1c282e ;
+}
+
+.projects img{
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 90%;
+    height: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 1);
+}
+.row1{
+    display: inline-flex;
+    width: 60%;
+    margin: auto;   
+    
+}
+.row2{
+    display: inline-flex;
+    width: 60%;
+    margin: auto;
+}
+.projects a:hover{
+    width: 100%;
+    height: 100%;
+}

@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: white ;
+    background-image: url("../img/bg.jpg");
+    background-repeat: no-repeat;
+}
+header{
+    width: 100% ;
+    text-align: center;
+}
+header h1{
+    padding: 30px;
+    font-size: 48px;
+    color: white;
+    font-family: Tahoma;
+}
+main{
+    background-image: url("../img/blur2.jpg");
+    width: 80%;
+    margin: auto;
+    border-radius: 30px;
+    display: flex;
+}
+.owl-carousel{
+    width: 100%;
+}
+.item{
+    width: 500px ;
+    height: 500px;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0 0 10%;
+}
+.item-1{
+    background-image: url("../img/arizona.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+}
+.item-2{
+    background-image: url("../img/california.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+}
+.item-3{
+    background-image: url("../img/florida.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.item-4{
+    background-image: url("../img/Washington-state.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.item-5{
+    background-image: url("../img/iowa.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.item-6{
+    background-image: url("../img/idaho.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.item-7{
+    background-image: url("../img/indiana.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.item-8{
+    background-image: url("../img/masachusets.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.item-9{
+    background-image: url("../img/new-mexico.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.item-10{
+    background-image: url("../img/oklakhoma.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.item-11{
+    background-image: url("../img/oregon.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.item-12{
+    background-image: url("../img/texas.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}

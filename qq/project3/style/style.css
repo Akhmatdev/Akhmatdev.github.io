@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body, header{
+    width: 100%;
+    height: 100%;
+}
+header{
+    color: white;
+    background-image: url(../img/section.bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Bebas Neue', cursive;
+}
+
+h1{
+    width: 100%;
+    text-align: center;
+    padding-top: 60px;
+    font-size: 20px;
+}
+.header-text{
+    margin: 150px;
+    align-content: center;
+    width: 40%;
+}
+.text-first{
+    font-size:30px;
+    color: gray;
+    text-transform: uppercase;
+}
+.text-second{
+    font-size: 60px;
+    color: white;
+    text-transform: uppercase;
+}
+.text-third{
+    color: gray;
+}
+/* Туризм. Вторая часть */
+main{
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+main section{
+    width: 70%;
+    margin: auto;
+}
+.gallery-text{
+    display: flex;
+}
+h2{
+    margin-right: 20px;
+}
+.gallery-img{
+    display: flex;
+    justify-content: space-between;
+}
+.gallery-right{
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+.gallery-img img {
+    width: 100%;
+}
+.first-img{
+    width: 100%;
+}
+/* Туризм. Третья часть */
+footer{
+    height: 50%;
+    width: 100%;
+    background-image: url(../img/bgfooter.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 120px;
+}
+h3{
+    margin-bottom: 20px;
+    border: 2px solid white;
+    font-size: 30px;
+    padding: 10px;
+}
+footer p{
+    width: 70%;
+    font-size: 20px;
+    text-align: center;
+}

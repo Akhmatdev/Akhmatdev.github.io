@@ -1,0 +1,21 @@
+figure h2{
+    transition: ;
+    transform:translateY(20px)
+}
+figure p{
+    transition: ;
+    transform: translateY(-20px);
+    visibility: hidden;
+}
+figure:before{
+    content: '';
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    bottom: 5%;
+    left: 5%;
+    border-top:solid 2px;
+}
+figure:hover{
+    
+}

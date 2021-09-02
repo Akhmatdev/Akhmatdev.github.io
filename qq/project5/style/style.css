@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body, section{
+    height: 100%;
+}
+header{
+    height: 100px;
+    width: 100%;
+    background-color: #f5f5f5;
+    box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    position: fixed;
+}
+a{
+    font-size: 28px;
+    text-decoration: none;
+    font-family: 'Style Script', cursive;
+    color: black;
+}
+a:hover{
+    font-size: 25px;
+}
+a:active{
+    color: grey;
+}
+section{
+    height: 100%;
+}
+#blue{
+    background-color: blue;
+}
+#purple{
+    background-color:purple;
+}
+#green{
+    background-color: green;
+}
+#black{
+    background-color: black;
+}
+#brown{
+    background-color:brown;
+}
+#yellow{
+    background-color: yellow;
+}
+#img{
+    background-image: url('../dubai.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}

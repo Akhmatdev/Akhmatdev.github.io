@@ -1,0 +1,14 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html, body{
+    height: 100%;
+}
+.shape{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background: red;
+    margin-bottom: 10px;
+}

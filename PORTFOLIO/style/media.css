@@ -1,0 +1,96 @@
+@media(max-width: 480px){
+    .logo{
+        background-size: cover;
+        width: 38%;
+        margin: 0 40px;
+    }
+    .info p{
+        font-size: 10px;
+        display: flex;
+        flex-wrap: nowrap;
+        color:rgb(115, 29, 162);
+        font-family: ka1;
+        margin: 0 30px 40px;
+    }
+    h1{
+        font-size: 25px;
+        width: 100%;
+        background: rgb(96,226,227);
+        background: linear-gradient(45deg, #F17C58, #E94584, #24AADB, #27DBB1, #FFDC18, #FF3706);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        margin:  0 30px 40px;
+        display: flex;
+        flex-wrap:wrap;
+    }
+    .logo2{
+        font-size: 28px;
+        font-family: ka1;
+        font-weight: 100;
+        background: rgb(96,226,227);
+        background: linear-gradient(90deg, rgba(96,226,227,1) 0%, rgba(217,65,114,1) 50%, rgba(176,72,245,1) 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -webkit-text-stroke-color: black;
+     
+    }
+    .gallery{
+        width: 50%;
+        background-image: url(../img/tree.png);
+        background-size: 80%;
+        background-repeat: no-repeat;
+        background-position-x: 70%;
+        background-position-y: 70%;
+    }
+    .nav-menu{
+        width: 80%;
+        height: 80%;
+        margin: auto;
+        font-family:ARCADECLASSIC;
+        font-size: 15px;
+        background-color: #1c282e;
+        border-radius:15px;
+        background-image: url(../img/clouds.png);
+        background-repeat:no-repeat;
+        background-position-x: 48%;
+        background-position-y: 10%;
+        background-size: 80%;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 0;
+        color: black;
+    }
+    .projects{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 7pc;
+    }
+    .row1{
+        display: inline-flex;
+        justify-content: center;
+    }
+    .row2{
+        display: inline-flex;
+        justify-content: center;
+    }
+    .projects img{
+        height: auto;
+        width: 80px;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 1);
+        margin: 5px 5px;
+    }
+    .reg-form{
+        width: 70%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        color: white;
+        margin-top: 0;
+    }
+}

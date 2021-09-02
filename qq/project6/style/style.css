@@ -1,0 +1,245 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body, main { 
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+header {
+    height: 100%;
+    background-color: #EEEFF1;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+nav {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-menu {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+}
+.menu-item {
+    text-decoration: none;
+    color: black;
+}
+.header-info {
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.info-img {
+    display: block;
+    width: 40%;
+}
+.info-text {
+    width: 50%;
+}
+h1 {
+    font-size: 48px;
+}
+.header-info p {
+    font-size: 16px;
+    color: #727272;
+    padding: 60px 0;
+}
+.header-info button {
+    background-color: #34547A;
+    padding: 25px 40px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+/* Блок обо мне */
+.about-me {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 120px 0 100px;
+}
+.about-me-title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.about-me-text {
+    width: 30%;
+    text-align: center;
+}
+/* Проекты */
+.projects {
+    background-color: #34547A;
+    padding: 100px 0;
+}
+.projects-list {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.projects-item {
+    display: flex;
+}
+.projects-item img {
+    margin-right: 20px;
+}
+.projects-text {
+    color: white;
+}
+/* Мои навыки */
+.my-skills {
+    height: 100%;
+    background-color: #E5E5E5;
+    display: flex;
+}
+.my-skills-wrapper {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+.my-skills-text {
+    width: 50%;
+}
+.my-skills-img {
+    width: 50%;
+}
+.my-skills-title {
+    font-size: 32px;
+    margin-bottom: 50px;
+}
+.my-skills-item {
+    margin-bottom: 30px;
+}
+.my-skill {
+    font-size: 16px;
+    color: #727272;
+}
+.my-skills-img img {
+    width: 100%;
+}
+.my-skill-container {
+    width: 80%;
+    height: 5px;
+    background-color: #C4C4C4;
+}
+.my-skill-bar {
+    width: 80%;
+    height: 5px;
+    background-color: #34547A;
+}
+/* Процесс работы */
+.process {
+    height: 100%;
+    background-color: #EEEFF1;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.process-text {
+    text-align: center;
+}
+.process-descr {
+    width: 50%;
+    margin: auto;
+}
+.process-video {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+/* Мои проэкты. Картины */
+.my-projects{
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.my-project-item {
+    width: 25%;
+    height: 50vh;
+    background-image: url(../img/stickers.png);
+    background-size: cover;
+}
+.my-project-item computer{
+    width: 25%;
+    height: 50vh;
+    background-image: url(../img/laptop.png);
+    background-size: cover;
+}
+.item-hover{
+    height: 100%;
+    background: linear-gradient(0deg, rgba(52, 84, 122, 0.8), rgba(52, 84, 122, 0.8));
+    opacity: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item-hover img{
+    width: 100px;
+    height: 100px;
+}
+.item-hover:hover{
+    opacity: 1;
+}
+/* Регистрационная форма */
+.form-wrapper{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #EEEFF1;
+}
+.form-text, .form{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.form-title, .form-descr{
+    text-align: center;
+}
+input, textarea{
+    border: none;
+}
+.form-main{
+    display: flex;
+    justify-content: space-between;
+}
+input{
+    width: 45%;
+    height: 50px;
+    margin-bottom: 20px;
+    padding: 20px;
+
+}
+textarea{
+    padding: 15px;
+}
+.submit{
+    background-color: #34547A;
+    text-transform: uppercase ;
+    width: 30%;
+    padding: 0;
+    margin-top: 50px;
+    color: white;
+}

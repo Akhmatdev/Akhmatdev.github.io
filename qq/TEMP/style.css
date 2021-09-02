@@ -1,0 +1,9 @@
+.owl-carousel{
+    width: 100%;
+}
+.item{
+    width: 200px ;
+    height: 200px;
+    background-image: url("./img/images.jpg") ;
+    background-size: contain ;
+}
